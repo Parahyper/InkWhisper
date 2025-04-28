@@ -1,0 +1,6 @@
+font:微软雅黑 Light
+font_size:13
+bg:white
+fg:black
+theme:litera
+llms:DeepSeek
