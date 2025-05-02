@@ -17,7 +17,7 @@ def get_deepseek_responses(input_messages):
     print(input_messages)
     # 请确保您已将 API Key 存储在环境变量 ARK_API_KEY 中
     # 初始化Ark客户端，从环境变量中读取您的API Key
-    client = OpenAI(base_url="https://ark.cn-beijing.volces.com/api/v3",api_key="e48e0bac-f4cf-494d-8fd8-d2d6c8430f76")
+    client = OpenAI(base_url="https://ark.cn-beijing.volces.com/api/v3",api_key="")
     # print(message)
     print(input_messages)
     response = client.chat.completions.create(
@@ -39,7 +39,7 @@ def get_doubao_responses(input_messages):
     print(input_messages)
     # 请确保您已将 API Key 存储在环境变量 ARK_API_KEY 中
     # 初始化Ark客户端，从环境变量中读取您的API Key
-    client = OpenAI(base_url="https://ark.cn-beijing.volces.com/api/v3",api_key="e48e0bac-f4cf-494d-8fd8-d2d6c8430f76")
+    client = OpenAI(base_url="https://ark.cn-beijing.volces.com/api/v3",api_key="")
     # print(message)
     print(input_messages)
     response = client.chat.completions.create(
